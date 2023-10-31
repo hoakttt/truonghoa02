@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+
+th {
+    background-color: #75e3e0;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+input:checked {
+    background-color: yellow;
+}
+
+.check-all {
+    margin: 0;
+}
+
+
+/* .even {
+    background-color: #f0f0f0;
+}
+
+.odd {
+    background-color: #ffffff;
+} */
+
+.hovered {
+    background-color: #aaffaa;
+}
